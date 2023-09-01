@@ -68,7 +68,7 @@ private int precioventa;
                 "Marca = " + marca + "," + " \n" + 
                 "Color = " + color + "," + "\n"+ 
                 "Modelo = " + modelo + "," + "\n"+ 
-                "Anio = " + anio + "\n"+ 
+                "Anio = " +  anio + "," + "\n"+ 
                 "Precio para la venta del vehiculo = " + precioventa ;
     }
 
