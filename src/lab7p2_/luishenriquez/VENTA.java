@@ -5,10 +5,10 @@
  */
 package lab7p2_.luishenriquez;
 
-/**
- *
- * @author LUIS HENRIQUEZ
- */
+
 public class VENTA {
+
+
+
     
 }
