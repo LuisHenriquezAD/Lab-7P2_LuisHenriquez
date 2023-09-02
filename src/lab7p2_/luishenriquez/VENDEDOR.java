@@ -42,9 +42,9 @@ private int dinero;
 
     @Override
     public String toString() {
-        return "VENDEDOR :" 
-                + "Nombre = " + nombre + 
-                "Carros vendidos = " + carrosv + 
+        return "VENDEDOR : " 
+                + "Nombre = " + nombre + "," + " \n" + 
+                "Carros vendidos = " + carrosv + "," + " \n" + 
                 "Dinero generado = " + dinero ;
     }
 

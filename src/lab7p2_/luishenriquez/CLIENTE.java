@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lab7p2_.luishenriquez;
 
 
@@ -12,13 +7,16 @@ private String nombrec;
 
 private int edad;
 
+private String profesion;
+
 private int carrosC;
 
 private int sueldo;
 
-    public CLIENTE(String nombrec, int edad, int carrosC, int sueldo) {
+    public CLIENTE(String nombrec, int edad, String profesion, int carrosC, int sueldo) {
         this.nombrec = nombrec;
         this.edad = edad;
+        this.profesion = profesion;
         this.carrosC = carrosC;
         this.sueldo = sueldo;
     }
@@ -39,6 +37,14 @@ private int sueldo;
         this.edad = edad;
     }
 
+    public String getProfesion() {
+        return profesion;
+    }
+
+    public void setProfesion(String profesion) {
+        this.profesion = profesion;
+    }
+
     public int getCarrosC() {
         return carrosC;
     }
@@ -55,13 +61,16 @@ private int sueldo;
         this.sueldo = sueldo;
     }
 
+    
+
     @Override
     public String toString() {
-        return "CLIENTE : " + 
-                "Nombre del cliente = " + nombrec + 
-                " Edad=" + edad + 
-                " Carros Comprados por el cliente=" + carrosC +  
-                " Sueldo disponible = " + sueldo ;
+        return "CLIENTE : " + "\n" +
+                "Nombre del cliente = " + nombrec + "," + " \n" +  
+                " Edad = " + edad + "," + " \n" + 
+                "Profesion del cliente = " + profesion+ "," + " \n" + 
+                "Carros Comprados por el cliente = " + carrosC + "," + " \n" +   
+                "Sueldo disponible = " + sueldo ;
     }
 
 
